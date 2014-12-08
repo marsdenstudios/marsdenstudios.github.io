@@ -27,8 +27,8 @@ html, body,
 .cbp_tmtimeline > li .cbp_tmlabel {
     width: 60%;
 	margin: 0 0 15px 25%;
-	background: #002b36;
-	color: #b58900;
+	background: #fdf6e3;
+	color: #657b83;
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -40,7 +40,7 @@ html, body,
 	font-size: 1em;
 	font-weight: 300;
 	line-height: 1.4;
-	background: #002b36;
+	background: #fdf6e3;
 	color: #268bd2;
 
 }
@@ -48,7 +48,7 @@ html, body,
  padding-top:30%;
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 2px solid #cb4b16;
 }
 /* The nav is fixed on the right side  and we center it by translating it 50% 
 (we don't know it's height so we can't use the negative margin trick) */

@@ -54,7 +54,7 @@
     width: 60%;
 	margin: 0 0 15px 25%;
 	background: #fdf6e3;
-	color: #b58900;
+	color: #657b83;
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -73,7 +73,7 @@
  padding-top:30%;
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 2px solid #cb4b16;
 }
 
 /* Right content */
@@ -81,7 +81,7 @@
     width: 60%;
 	margin: 0 0 15px 25%;
 	background: #fdf6e3;
-	color: #b58900;
+	color: #657b83;
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -100,7 +100,7 @@
  padding-top:30%;
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 2px solid #cb4b16;
 }
 
 /* Right content */
@@ -108,7 +108,7 @@
     width: 60%;
 	margin: 0 0 15px 25%;
 	background: #fdf6e3;
-	color: #b58900;
+	color: #657b83;
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -128,14 +128,14 @@
  padding-top:30%;
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 2px solid #cb4b16;
 }
 /* Right content */
 .cbp_tmtimeline4 > li .cbp_tmlabe4 {
     width: 60%;
 	margin: 0 0 15px 25%;
 	background: #fdf6e3;
-	color: #b58900;
+	color: #657b83;
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -155,5 +155,5 @@
  padding-top:30%;
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(255,255,255,0.4);
+	border-bottom: 2px solid #cb4b16;
 }
