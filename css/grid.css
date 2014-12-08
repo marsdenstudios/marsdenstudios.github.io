@@ -61,7 +61,7 @@ z-index:3;
 	display: block;
 	margin: 7px;
 	padding: 0px;
-	background: #D3EEE2;
+	background: #eee8d5;
 	color: #b58900;
 	text-transform: lowercase;
 	letter-spacing: 1px;
@@ -104,7 +104,7 @@ z-index:3;
 	z-index: 100;
 	width: 100%;
 	height: 100%;
-	background: #D3EEE2;
+	background: #eee8d5;
 }
 
 .grid.swipe-right .curtain {
@@ -157,7 +157,7 @@ visibility: hidden;
 	margin: 0;
 	padding: 2px;
 	width: 100%;
-	background: #002b36;
+	background: #fdf6e3;
 	color: #b58900;
 	text-align: right;
 	text-transform: lowercase;

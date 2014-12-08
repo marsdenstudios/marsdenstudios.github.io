@@ -1,5 +1,5 @@
 body{
-background-color:#073642;
+background-color:#eee8d5;
 }
 .splash {
 top: 30%;
@@ -25,7 +25,7 @@ border-style:solid;
 border-left:15px;
 border-right:15px;
 border-color:#ffffff;
- background-color:#073642;
+ background-color:#eee8d5;
 	position: fixed;
 	top: 20%;
 	width: 40%;
@@ -70,7 +70,7 @@ top:0px;
 left:0%;
 height:8%;
 width:100%;
-background-color:#073642;
+background-color:#eee8d5;
 }
 #showLeft {
 font-size:150%;
@@ -88,7 +88,7 @@ top:2%;
 background-color:#cb4b16;
 }
 .scroll-lines{
-background-color:#002b36;
+background-color:#fdf6e3;
 height:4%;
 width:100%;
 }
