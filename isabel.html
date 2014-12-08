@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Fixed Background Scrolling Layout</title>
+		<meta name="description" content="Blueprint: Fixed Background Scrolling Layout" />
+		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+				<link rel="stylesheet" type="text/css" href="css/menu.css" />
+ <script src="js/modernizr.grid.js"></script>
+
+
+	</head>
+
+			<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li>
+									<a href="john.html" class="gn-icon gn-icon-download">John</a>
+								</li>
+								<li>
+									<a href="ruth.html" class="gn-icon gn-icon-download">Ruth</a>
+								</li>
+								<li>
+									<a href="reuben.html" class="gn-icon gn-icon-download">Reuben</a>
+								</li>
+								<li>
+									<a href="isabel.html" class="gn-icon gn-icon-download">Isabel</a>
+								</li>								
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a  href="about.html">About</a></li>
+				<li><a  href="contact.html">Contact</a></li>
+				<li><a  href="blog.html"><span>Back</span></a></li>
+			</ul>
+					</div>
+</div>
+			<section class="grid-wrap">
+				<ul class="grid swipe-right" id="grid">
+					<li><a href="isabel-masks.html"><img               src="images/isabel-site-thumbs/2.jpg" alt="dummy"><h3>masks</h3></a></li>
+					<li><a href="isabel-nationalartservice.html"><img  src="images/isabel-site-thumbs/8.jpg" alt="dummy"><h3>national art service</h3></a></li>
+					<li><a href="isabel-puppetmaking.html"><img        src="images/isabel-site-thumbs/4.jpg" alt="dummy"><h3>puppet making</h3></a></li>
+					<li><a href="isabel-puppetshows.html"><img         src="images/isabel-site-thumbs/5.jpg" alt="dummy"><h3>puppet shows</h3></a></li>
+					<li><a href="isabel-sheep.html"><img               src="images/isabel-site-thumbs/1.jpg" alt="dummy"><h3>sheep</h3></a></li>					
+                    <li><a href="isabel-shyopera.html"><img           src="images/isabel-site-thumbs/6.jpg" alt="dummy"><h3>sky opera</h3></a></li>
+					<li><a href="isabel-wildberry.html"><img           src="images/isabel-site-thumbs/7.jpg" alt="dummy"><h3>wildberry</h3></a></li>
+					<li><a href="isabel-workshops.html"><img           src="images/isabel-site-thumbs/3.jpg" alt="dummy"><h3>workshops</h3></a></li>
+				</ul>
+
+		</div><!-- /content -->		
+		
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+	</body>
+</html>

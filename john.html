@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Fixed Background Scrolling Layout</title>
+		<meta name="description" content="Blueprint: Fixed Background Scrolling Layout" />
+		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+				<link rel="stylesheet" type="text/css" href="css/menu.css" />
+ <script src="js/modernizr.grid.js"></script>
+
+
+	</head>
+
+			<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li>
+									<a href="john.html" class="gn-icon gn-icon-download">John</a>
+								</li>
+								<li>
+									<a href="ruth.html" class="gn-icon gn-icon-download">Ruth</a>
+								</li>
+								<li>
+									<a href="reuben.html" class="gn-icon gn-icon-download">Reuben</a>
+								</li>
+								<li>
+									<a href="isabel.html" class="gn-icon gn-icon-download">Isabel</a>
+								</li>								
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a  href="about.html">About</a></li>
+				<li><a  href="contact.html">Contact</a></li>
+				<li><a  href="blog.html"><span>Back</span></a></li>
+			</ul>
+					</div>
+</div>
+			<section class="grid-wrap">
+				<ul class="grid swipe-right" id="grid">
+  				<li><a href="john-plates.html"><img         src="images/john-site-thumbs/6.jpg" alt="dummy"><h3>plates</h3></a></li>
+					<li><a href="john-greece.html"><img             src="images/john-site-thumbs/7.jpg" alt="dummy"><h3>greece</h3></a></li>
+					<li><a href="john-teapots.html"><img         src="images/john-site-thumbs/8.jpg" alt="dummy"><h3>teapots</h3></a></li>
+					<li><a href="john-vases.html"><img         src="images/john-site-thumbs/9.jpg" alt="dummy"><h3>vases</h3></a></li>
+					<li><a href="john-bowls.html"><img      src="images/john-site-thumbs/10.jpg" alt="dummy"><h3>bowls</h3></a></li>					
+                    <li><a href="john-dishes.html"><img           src="images/john-site-thumbs/1.jpg" alt="dummy"><h3>dishes</h3></a></li>
+					<li><a href="john-exhibitions.html"><img           src="images/john-site-thumbs/2.jpg" alt="dummy"><h3>exhibitions</h3></a></li>
+					<li><a href="john-jars.html"><img                       src="images/john-site-thumbs/3.jpg" alt="dummy"><h3>jars</h3></a></li>
+					<li><a href="john-mugs.html"><img           src="images/john-site-thumbs/4.jpg" alt="dummy"><h3>mugs</h3></a></li>
+					<li><a href="john-firings.html"><img           src="images/john-site-thumbs/5.jpg" alt="dummy"><h3>firings</h3></a></li>
+				</ul>
+
+		</div><!-- /content -->		
+		
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+	</body>
+</html>

@@ -1,0 +1,159 @@
+ 
+}
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
+.cbp_tmtimeline1 {
+
+
+	margin-top:7%;
+	margin-bottom:60%;
+	margin-left:5%;
+	margin-right:65%;
+	padding: 0;
+	list-style: none;
+	position: fixed;
+} 
+ .cbp_tmtimeline2 {
+	margin-top:7%;
+	margin-bottom:10%;
+	margin-left:25%;
+	margin-right:45%;
+	padding: 0;
+	list-style: none;
+	position: fixed;
+} 
+.cbp_tmtimeline3 {
+	margin-top:7%;
+	margin-bottom:10%;
+	margin-left:45%;
+	margin-right:25%;
+	padding: 0;
+	list-style: none;
+	position: fixed;
+} 
+.cbp_tmtimeline4 {
+	margin-top:7%;
+	margin-bottom:10%;
+	margin-left:65%;
+	margin-right:5%;
+	padding: 0;
+	list-style: none;
+	position: fixed;
+} 
+/* Right content */
+.cbp_tmtimeline1 > li .cbp_tmlabel1 {
+    width: 60%;
+	margin: 0 0 15px 25%;
+	background: #002b36;
+	color: #b58900;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+.cbp_tmtimeline1 > li .timeline-header1 {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.4;
+	background: #002b36;
+	color: #268bd2;
+}
+.cbp_tmtimeline1 > li .cbp_tmlabel1 h2 { 
+ padding-top:30%;
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* Right content */
+.cbp_tmtimeline2 > li .cbp_tmlabe2 {
+    width: 60%;
+	margin: 0 0 15px 25%;
+	background: #002b36;
+	color: #b58900;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+.cbp_tmtimeline2 > li .timeline-header2 {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.4;
+	background: #002b36;
+	color: #268bd2;
+}
+.cbp_tmtimeline2 > li .cbp_tmlabe2 h2 { 
+ padding-top:30%;
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* Right content */
+.cbp_tmtimeline3 > li .cbp_tmlabe3 {
+    width: 60%;
+	margin: 0 0 15px 25%;
+	background: #002b36;
+	color: #b58900;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+.cbp_tmtimeline3 > li .timeline-header3 {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.4;
+	background: #002b36;
+	color: #268bd2;
+
+}
+.cbp_tmtimeline3 > li .cbp_tmlabe3 h2 { 
+ padding-top:30%;
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+/* Right content */
+.cbp_tmtimeline4 > li .cbp_tmlabe4 {
+    width: 60%;
+	margin: 0 0 15px 25%;
+	background: #002b36;
+	color: #b58900;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+.cbp_tmtimeline4 > li .timeline-header4 {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.4;
+	background: #002b36;
+	color: #268bd2;
+
+}
+.cbp_tmtimeline4 > li .cbp_tmlabe4 h2 { 
+ padding-top:30%;
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
