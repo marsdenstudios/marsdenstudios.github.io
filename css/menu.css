@@ -6,7 +6,13 @@ z-index:1000;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 }
-
+ .button {
+vertical-align:top; 
+display:inline-block; 
+line-height:60px;
+height:60px;
+width:60px;
+ }
 
 
 /* Icomoon.com */
@@ -290,13 +296,9 @@ input.gn-search:focus {
 }
 
 .gn-icon-menu::before {
-		margin-left: -15px;
-		vertical-align: -2px;
-		width: 30px;
-		height: 3px;
-		background: #b58900
-
-		content: '';
+vertical-align:top; 
+display:inline-block; 
+font-size:460%;
 }
 
  .gn-icon-menu:hover::before,
