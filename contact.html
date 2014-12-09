@@ -9,11 +9,12 @@
 		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/grid.css" />
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/contact.css" />
 				<link rel="stylesheet" type="text/css" href="css/menu.css" />
-	  <script src="js/modernizr.scroll.js"></script>
-			    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">	
+ <script src="js/modernizr.grid.js"></script>
+			    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css" />				
 	</head>
 	         
 			<ul id="gn-menu" class="gn-menu-main">
@@ -42,60 +43,58 @@
 				<li><a href="blog.html">Blog</a></li>
 				<li><a  href="about.html">About</a></li>
 				<li><a  href="contact.html">Contact</a></li>
-				<li><a  href="#"><span>Back</span></a></li>
+				<li><a  href="blog.html"><span>Back</span></a></li>
 			</ul>
+					</div>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<h1>Order Form</h1>
+			</header>	
+			<div class="contactbox">
+				<form action="//forms.brace.io/marsdenstudios@gmail.com" method="get" class="cbp-mc-form">
+					<div class="cbp-mc-column">
+						<label for="first_name">First Name</label>
+	  					<input type="text" id="first_name" name="first_name" placeholder="Jonathan">
+	  					<label for="last_name">Last Name</label>
+	  					<input type="text" id="last_name" name="last_name" placeholder="Doe">
+	  					<label for="email">Email Address</label>
+	  					<input type="text" id="email" name="email" placeholder="jon@doe.com">
+	  					<label for="phone">Phone Number</label>
+	  					<input type="text" id="phone" name="phone" placeholder="+351 999 999">
+	  				</div>
+	  				<div class="cbp-mc-column">					
+					<label>Who to?</label>
+	  					<select id="talent" name="talent">
+	  						<option>John</option>
+	  						<option>Ruth</option>
+	  						<option>Reuben</option>
+	  						<option>Sophie</option>
+	  					</select>
+						
+						
+						<label id="message" for="affiliations">Message</label>
+	  					<textarea id="affiliations" name="affiliations"></textarea>
+	  					
+	  				</div>
+<div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Send your data" /></div>
+				</form>
+				
 
 
-			            <ul class="cbp_tmtimeline1">
-					<li>
-						<time class="cbp_tmtime1" datetime="2013-04-10 18:30"><span></span> <span></span></time>
-						      <div class="cbp_tmicon1 cbp_tmicon-phone1"></div>
-						 <div class="cbp_tmlabel1">
-									<div class="timeline-header1"><h2>Contact</h2></div>
-							        <p>Winter purslane courgette  radish bush tomato ricebean black-eyed pea maize eggplant. Cabbage bok choy squash cress potato summer fennel . Winter artichoke  avocado sierra leone bologi.</p>
-						</div>
-					</li>
-			</ul>
-			
-			            <ul class="cbp_tmtimeline2">
-					<li>
-						<time class="cbp_tmtime2" datetime="2013-04-10 18:30"><span></span> <span></span></time>
-						      <div class="cbp_tmicon2 cbp_tmicon-phone2"></div>
-						 <div class="cbp_tmlabe2">
-									<div class="timeline-header2"><h2>Contact</h2></div>
-							        <p>Winter purslane courgette  radish bush tomato ricebean black-eyed pea maize eggplant. Cabbage bok choy squash cress potato summer fennel . Winter artichoke  avocado sierra leone bologi.</p>
-						</div>
-					</li>
-			</ul>
-			
-			            <ul class="cbp_tmtimeline3">
-					<li>
-						<time class="cbp_tmtime3" datetime="2013-04-10 18:30"><span></span> <span></span></time>
-						      <div class="cbp_tmicon3 cbp_tmicon-phone3"></div>
-						 <div class="cbp_tmlabe3">
-									<div class="timeline-header3"><h2>Contact</h2></div>
-							        <p>Winter purslane courgette  radish bush tomato ricebean black-eyed pea maize eggplant. Cabbage bok choy squash cress potato summer fennel . Winter artichoke  avocado sierra leone bologi.</p>
-						</div>
-					</li>
-			</ul>
-			
-			            <ul class="cbp_tmtimeline4">
-					<li>
-						<time class="cbp_tmtime4" datetime="2013-04-10 18:30"><span></span> <span></span></time>
-						      <div class="cbp_tmicon4 cbp_tmicon-phone4"></div>
-						 <div class="cbp_tmlabe4">
-									<div class="timeline-header4"><h2>Contact</h2></div>
-							        <p>Winter purslane courgette  radish bush tomato ricebean black-eyed pea maize eggplant. Cabbage bok choy squash cress potato summer fennel . Winter artichoke  avocado sierra leone bologi.</p>
-						</div>
-					</li>
-			</ul>
-			
-			
-</div>
-		<div/>
-				<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+			</div>
+		</div>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
-		<script src="js/gnmenu.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
+<script src="js/gnmenu.js"></script>
 		<script>
 			new gnMenu( document.getElementById( 'gn-menu' ) );
 		</script>

@@ -6,6 +6,46 @@ top: 30%;
 left: 40%;
 position:fixed;
 }
+
+.buy {
+float:right;
+font-size:110%;
+background-color:#859900;
+color: #fdf6e3;
+border-style:none;
+position:relative;
+}
+
+.order {
+float:right;
+font-size:110%;
+background-color:#859900;
+color: #fdf6e3;
+border-style:none;
+position:relative;
+}
+
+.sold {
+float:right;
+font-size:110%;
+background-color:#dc322f;
+color: #fdf6e3;
+border-style:none;
+position:relative;
+}
+
+.order:hover {
+background-color:#d33682;
+color: #fdf6e3;
+border-style:none;
+}
+
+.buy:hover {
+background-color:#d33682;
+color: #fdf6e3;
+border-style:none;
+}
+
 .scroll-box{
 border-style:solid;
 border-left:46px;
