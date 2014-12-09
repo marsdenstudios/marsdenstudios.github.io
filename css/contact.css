@@ -2,6 +2,17 @@
 	position: relative;
 }
 
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .cbp-mc-form:before, 
 .cbp-mc-form:after { 
@@ -53,7 +64,10 @@ color:#268bd2;
 .cbp-mc-form textarea {
 	min-height: 200px;
 }
-
+.header{
+padding:20px;
+float:left;
+}
 .cbp-mc-form input:focus,
 .cbp-mc-form textarea:focus,
 .cbp-mc-form label:active + input,
@@ -80,10 +94,7 @@ color:#268bd2;
     color: #859900;
     font-style: italic;
 }
-#affiliations{
-width:210%;
-height:280px;
-}
+ 
 .contactbox {
 
 width:60%;
