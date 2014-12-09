@@ -8,9 +8,7 @@
 	content: " "; display: table; 
 }
 
-.container {
-z-index:1;
-}
+
 .cbp-mc-form:after { 
 	clear: both; 
 }
