@@ -26,8 +26,8 @@ html, body,
 .cbp_tmtimeline > li .cbp_tmlabel {
     width: 60%;
 	margin: 0 0 15px 25%;
-	background: #002b36;
-	color: #b58900;
+	background: #fdf6e3;
+	color: #657b83;
 	padding: 2em;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -39,7 +39,7 @@ html, body,
 	font-size: 1em;
 	font-weight: 300;
 	line-height: 1.4;
-	background: #002b36;
+	background: #fdf6e3;
 	color: #268bd2;
 
 }
@@ -58,7 +58,7 @@ html, body,
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-right-color: #002b36;
+	border-right-color: #fdf6e3;
 	border-width: 10px;
 	top: 10px;
 }
