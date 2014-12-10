@@ -3,6 +3,18 @@
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
+
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
 .grid-wrap {
      z-index:3;
      position:relative;
@@ -15,6 +27,43 @@
 	padding-bottom: 2%;
 	max-width: 1260px;
 }
+
+.artist{
+padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+		color: #657b83;
+position:fixed;
+float:right;
+right:3%;
+top:100px;
+width:13%;
+height:400px;
+background:#fdf6e3;
+border-radius: 5px;
+}
+.name h2 { 
+    color:#268bd2;
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 2px solid #cb4b16;
+}
+	
+.artist:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #fdf6e3;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
 
 .grid {
     z-index:3;
@@ -63,7 +112,7 @@ z-index:3;
 	padding: 0px;
 	background: #eee8d5;
 	color: #b58900;
-	text-transform: lowercase;
+	text-transform: capitalize;
 	letter-spacing: 1px;
 	font-weight: 300;
 }
@@ -160,7 +209,7 @@ visibility: hidden;
 	background: #fdf6e3;
 	color: #b58900;
 	text-align: right;
-	text-transform: lowercase;
+	text-transform: capitalize;
 	letter-spacing: 1px;
 	font-weight: 800;
 	font-size: 1em;

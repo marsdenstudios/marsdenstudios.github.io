@@ -1,13 +1,26 @@
 body{
 background-color:#eee8d5;
 }
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+
 .splash {
 top: 30%;
 left: 40%;
 position:fixed;
 }
 
+
 .buy {
+padding 10px;
 float:right;
 font-size:110%;
 background-color:#859900;
@@ -127,11 +140,35 @@ top:2%;
 #showLeft:hover {
 background-color:#cb4b16;
 }
-.scroll-lines{
-background-color:#fdf6e3;
-height:4%;
+
+ 
+.scroll-lines {
+
+text-align:center;
 width:100%;
+	font-size: 1.7em;
+	font-weight: 400;
+	color:#073642;;
+display:inline-block;
+padding:15px;
+	position: relative;
+	background: #fdf6e3;
 }
+.scroll-lines:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #fdf6e3;
+	border-width: 10px;
+}
+
+
 .line1{
 z-index:1;
 height:100%;

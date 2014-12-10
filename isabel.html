@@ -46,6 +46,14 @@
 			</ul>
 					</div>
 </div>
+
+                <div class="artist">
+                       <div class="artist-text">
+                               <div class="name"><h2>Isabel</h2></div>
+                               <p>Isabel is a puppeteer, puppet maker and teacher.</p>
+                        </div>
+                </div>
+				
 			<section class="grid-wrap">
 				<ul class="grid swipe-right" id="grid">
 					<li><a href="isabel-masks.html"><img               src="images/isabel-site-thumbs/2.jpg" alt="dummy"><h3>masks</h3></a></li>
@@ -60,9 +68,16 @@
 
 		</div><!-- /content -->		
 		
-
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/classie.js"></script>
-
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
 <script src="js/gnmenu.js"></script>
 		<script>
 			new gnMenu( document.getElementById( 'gn-menu' ) );

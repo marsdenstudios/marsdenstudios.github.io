@@ -34,8 +34,9 @@ color:#268bd2;
 .cbp-mc-form label {
 	display: block;
 	padding: 40px 5px 5px 2px;
-	font-size: 1.1em;
-	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: 300;
+	line-height: 1.4;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
@@ -44,9 +45,10 @@ color:#268bd2;
 .cbp-mc-form textarea,
 .cbp-mc-form select {
 	border: 3px solid #2aa198;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
-	line-height: 1.5;
-	font-size: 1.4em;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
 	padding: 5px 10px;
 	color: #657b83;
 	display: block;
