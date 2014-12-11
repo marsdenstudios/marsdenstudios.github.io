@@ -71,6 +71,7 @@ z-index:1000;
 
 .gn-menu-main li.gn-trigger {
 z-index:1000;
+
 		position: relative;
 		width: 60px;
 		-webkit-touch-callout: none;
@@ -87,6 +88,8 @@ z-index:1000;
 		border-right: none;
 		border-left: 5px solid #eee8d5;
 }
+
+ 
 
 .gn-menu-main > li > a {
 z-index:1000;

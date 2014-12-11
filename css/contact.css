@@ -18,7 +18,14 @@
 .cbp-mc-form:after { 
 	content: " "; display: table; 
 }
-
+.header{
+background:#fdf6e3;
+	font-size: 1.6em;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #657b83;
+	position:relative;
+	}
 
 .cbp-mc-form:after { 
 	clear: both; 
@@ -66,10 +73,7 @@ color:#268bd2;
 .cbp-mc-form textarea {
 	min-height: 200px;
 }
-.header{
-padding:20px;
-float:left;
-}
+ 
 .cbp-mc-form input:focus,
 .cbp-mc-form textarea:focus,
 .cbp-mc-form label:active + input,
@@ -83,17 +87,17 @@ float:left;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color: #859900;
+    color: #93a1a1;
     font-style: italic;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #859900;
+    color: #93a1a1;
     font-style: italic;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #859900;
+    color: #93a1a1;
     font-style: italic;
 }
  
@@ -103,6 +107,7 @@ width:60%;
 left:30%;
 background-color:#fdf6e3;
 position:fixed;
+border-radius:5px;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10+ */
@@ -114,7 +119,7 @@ position:fixed;
 float:right;
 padding:40px;
 	text-align: center;
-	padding-top: 40px;
+ 
 	clear: both;
 }
 
