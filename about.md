@@ -7,7 +7,7 @@ permalink: /about/
 <img class="col one right" src="/img/profile.jpg">
 
 <br/>
-Marsden studio is a small design company based in Stroud
+Marsden Studios is a small design company based in Stroud
 
 
 <br/>
