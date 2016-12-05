@@ -3,22 +3,15 @@ layout: default
 ---
 
 <div class="header-bar">
-  <h1>*folio</h1>
-  <h2>simple whitespace theme</h2>
+  <h1>marsdenstudio</h1>
+  <h2>simple studio space</h2>
   <br/>
   <hr>
   <br/>
 </div>
 
 
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
+<div class="img_row">
+	<img class="col two" src="/img/home.jpg">
+	<img class="col one" src="/img/ca1-4.jpg">
+</div>
