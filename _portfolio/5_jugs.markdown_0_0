@@ -1,0 +1,14 @@
+---
+layout: post
+title: Ceramic Jugs
+description: a project with a background image
+img: /img/jugs-1.jpg
+---
+
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+</div>
