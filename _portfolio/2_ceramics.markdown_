@@ -8,7 +8,16 @@ img: /img/ceramics-2.jpg
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/ceramics-1.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/ceramics-2.jpg" alt="" title="example image"/>
+  	<img class="col one" src="{{ site.baseurl }}/img/ceramics-3.jpg" alt="" title="example image"/>
+</div>
+
+<div class="img_row">
+	<img class="col two" src="{{ site.baseurl }}/img/ceramics-6.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/ceramics-4.jpg" alt="" title="example image"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/ceramics-5.jpg" alt="" title="example image"/>
 </div>
